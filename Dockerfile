@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk
 VOLUME /tmp
-RUN microdnf install findutils
+RUN microdnf install findutils #this line has been added specifically for MAC OS
 ARG JAVA_OPTS
 ENV JAVA_OPTS=$JAVA_OPTS
 COPY rewards rewards

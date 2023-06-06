@@ -3,6 +3,8 @@ Instructions to run the application:
 2. Once the image is built, run the command `docker run --rm -it -p 8080:8080/tcp -p 9002:9002/tcp rewards:latest`
 3. The above command will the create and run the container with port 8080 exposed. Assuming no other application is running on 8080.
 
+## Note
+Docker file has certain instructions that are specific to MAC OS.
 
 ## To create a receipt the following command can be run, while the docker container is running
 ```
